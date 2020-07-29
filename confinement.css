@@ -1,0 +1,56 @@
+
+#pageConfi{
+   margin-left:10%;
+   margin-right:10%;
+}
+h1{
+   background-color:grey;
+   text-align:center;
+}
+      ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+      }
+      .active {
+         background-color: #4CAF50;
+         color: white;
+      }
+      li {
+         border-bottom: 1px solid #555;
+         display: inline;
+      }
+ #formulaireConfi{
+    margin-left:40%;
+   margin-right:30%;
+    
+ }
+
+#lien{
+   text-decoration:None;
+  display: inline;
+  margin-left: 5%;
+  margin-right: 7%;
+}
+
+#livreinfo{
+
+}
+#Livre{
+   display: inline;
+   width:200px;
+   height:100px;
+   margin-left: 5%;
+   margin-right: 7%;
+  
+}
+#piedConfi{
+   height:40px;
+   text-align:center;
+   background-color: grey;
+   margin-top:50px;
+   margin-left:10%;
+   margin-right: 7%;
+   border:2px solid #0B0;
+   box-shadow:-4px -4px 5px line inset;
+}

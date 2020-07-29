@@ -1,0 +1,182 @@
+body {
+  background-color:#FFFFFF;
+
+}
+#babelentete{
+  width: 100%;
+  height: 50px;
+  background-color: hotpink;
+  text-align: center;
+  text-decoration: underline;
+  border-color: darkmagenta;
+  border-style: dashed;
+  border-radius: 5%;
+  font-size: 36px; 
+  font-weight: bolder;
+  font-style: oblique;
+  text-transform: uppercase;
+  border-top-width: 3px;
+	border-bottom-width:10px;
+	border-right-width: 5px;
+	border-left-width: 5px;
+	border-style: inset;
+	border-color: red;
+}
+
+#formulaire{
+  margin-left: 45%;
+}
+#Connexion{
+  color: white;
+  background-color: darkolivegreen;
+}
+#logo{
+  text-align: center;
+  width: 700px;
+ height: 600px;
+ margin-top: 5%;
+ margin-left: 5%;
+ font-size: 16px;
+ font-family: 'Source sans Pro', Calibri,Tahoma,sans-serif;
+ padding: 40px;
+ border: 5px solid #FFFFFF;
+ border-radius: 10px;
+ box-shadow: 2px 4px 3px black;
+ background-color: #FFFFFF;
+}
+
+
+#logo{
+width: 150px;
+height: 100px;
+background-color: green;
+position: relative;
+-webkit-animation-name: chgt-couleur; /* chrome, safari et opera*/
+-webkit-animation-duration: 15s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: alternate;
+-moz-animation-name: chgt-couleur; /* Mozilla */
+-moz-animation-duration: 10s;
+-moz-animation-iteration-count: infinite;
+-moz-animation-direction: alternate;
+animation-name: chgt-couleur;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+animation-direction: alternate; 
+}
+
+/* Pour Chrome, Safari et Opéra*/
+@-webkit-keyframes chgt-couleur{
+0%{background-color: green; top: 0px; left: 0px}
+25%{background-color: yellow; top: 0px; left: 400px}
+50%{background-color: red; top: 400px; left: 400px}
+75%{background-color: blue; top: 400px; left: 0px}
+100%{background-color: green; top: 0px; left: 0px}
+
+}
+
+/* Pour Mozilla*/
+@moz-keyframes chgt-couleur{
+0%{background-color: green; top: 0px; left: 0px}
+25%{background-color: yellow; top: 0px; left: 400px}
+50%{background-color: red; top: 400px; left: 400px}
+75%{background-color: blue; top: 400px; left: 0px}
+100%{background-color: green; top: 0px; left: 0px}
+}
+
+/* Syntaxe standard*/
+@keyframes chgt-couleur{
+0%{background-color: green; top: 0px; left: 0px}
+25%{background-color: yellow; top: 0px; left: 400px}
+50%{background-color: red; top: 400px; left: 400px}
+75%{background-color: blue; top: 400px; left: 0px}
+100%{background-color: green; top: 0px; left: 0px}
+}	
+
+#lien{
+  display: inline;
+  margin-left: 5%;
+  margin-right: 7%;
+}
+.title{
+  width: 90%;
+  margin: auto;
+  font-size: 16px;
+  font-family: 'Source sans Pro', Calibri,Tahoma,sans-serif;
+  padding: 40px;
+  border: 5px solid #3388CC;
+  border-radius: 10px;
+  box-shadow: 2px 4px 3px black;
+  background-color: #FFFFFF;
+}
+
+.menu-nav {
+
+}
+
+.contenu {
+  border-radius: 25px;
+  width: 120px;
+  height: 120px;
+}
+.images {
+  border-radius: 40px;
+  width: 120px;
+  height: 120px;
+}
+
+.image1 {
+  background-image: url(PNL.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image2 {
+  background-image: url(génie.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image3 {
+  background-image: url(psyamoureuse.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image4 {
+  background-image: url(psytravail.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image5 {
+  background-image: url(hypnose.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+table{
+  border-collapse: separate;
+}
+
+td{
+  border: 2px solid black;
+}
+
+.piedpage{
+  text-decoration: brown;
+  text-align: center;
+  background-color: brown;
+}
+
+.realisation{
+  color:gainsboro;
+}
+#heure{
+  text-align:center;
+}

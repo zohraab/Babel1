@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Inscription Babel, votre bibliotheque</title>
+		<link rel="stylesheet" href="Apprenant_Form.css">
+		<meta charset="utf-8">
+		<script src=""></script>
+	</head>
+	<body>
+		<div class="Formulaire">
+			
+		<form name="Formulaire" action="" method="GET">
+			<fieldset>
+				<legend>Renplissez ce formulaire s'il vous plait !</legend>
+			<table>
+				<caption class="Titre">Bienvenu(e),<a href="index.html"> si vous êtes déja inscrit(e),Connectez vous</a> </caption>
+				
+				<tr>
+					<td><label for="name">Civilité:</label></td>
+					<td><input type="radio" name="Civi" value="Monsieur">Monsieur
+					<input type="radio" name="Civi" value="Madame">Madame
+					<input type="radio" name="Civi" value="Mademoiselle">Mademoiselle</td>
+					
+				</tr>
+				
+				<tr>
+					<td><label for="name">Prénom</label></td>
+					<td><input type="text" name="prennom" id="prenom"></td>
+					<td><label for="name">Nom</label></td>
+					<td><input type="text" name="nom" id="nom"></td>
+				</tr>
+				<tr>
+					<td><label for="name">Date de Naissance</label></td>
+					<td><input type="date" name="daten" id="daten"></td>
+                    <td><label for="mail">Email</label></td>
+                    <td><input type="email" name="mail" id="mail" required placeholder="Votre email"></td>
+					
+				</tr>
+                <tr>
+                   <td><label for="name">Lieu de Naissance</label></td>
+					<td><input type="text" name="lieu_Naissance" id="lieu_Naissance"></td>
+					<td><label for="name">Telephone</label></td>
+					<td><input type="tel" name="Numero" id="Numero" required placeholder="Votre Télephone"
+                               pattern="[0-9]{10}" title="Numéro de téléphone à 10 chiffres sans espace" /></td>
+                    
+				</tr>
+				<tr>
+					<td><label for="name">Ville</label></td>
+					<td><input type="text" name="ville" id="ville"></td>
+					<td><label for="name">Code Postal</label></td>
+					<td><input type="text" name="cp" id="cp"></td>
+                    
+                    
+				</tr>
+                <tr>
+                    <td><label for="name">Nationalité</label></td>
+					<td><input type="text" name="nation" id="nation"></td>
+                    <td><label for="name">Pays</label></td>
+					<td><input type="text" name="Pays" id="Pays"></td>
+                    
+                </tr>
+                <tr>
+                    
+				<td><label for=Compétences>Compétences Requises</label></td>
+                <td><select id="Compétences" name="Compétences" multiple>
+                    <option value="1" selected>HTML5/CSS</option>
+                    <option value="2" >JavaScript/node.js/React..</option>
+                    <option value="3" selected>Mysql/Oracle/MongoDB</option>
+                    <option value="4" >JAVA/PHP</option>
+                    <option value="Autres">Autres</option>
+                </select>
+            </td>
+                    <td>Autres Compétences</td>
+                     <td><textarea  name="message" id="message" cols="22" rows="5" required  title="Autres langages informatique ! ! !"></textarea></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="name">Métier de rêve</label></td>
+					<td><input type="text" name="métier" id="méttier"></td>
+                     <td><label for="name">Êtes-vous satifait de ce formulaire ?</label></td>
+                    <td><input type="radio" name="avis" value="oui">Oui
+					<input type="radio" name="avis" value="non">Non</td>
+                </tr>
+					
+            
+                
+				<tr>
+                   
+					<td></td>
+					<td><input type="submit" value="Valider" id="Valider"></td>
+					<td></td>
+					<td><input type="submit" value="Annuler" id="Annuler"></td>
+				</tr>	
+			</table>
+				</fieldset>
+		</form>
+				
+			</div>
+	</body>
+</html>
